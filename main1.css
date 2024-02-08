@@ -1,0 +1,149 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.screen{
+
+    background-size: cover;
+    height: 350px;
+    width: 1470px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: top;
+    background-image: url(/images/nature.jpg.jpg);
+}
+
+.box{
+    padding: 0;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 0.5rem;
+    height: 45vh;
+    width: 30%;
+    margin-top: 150px;
+    margin-left: 450px;
+    background-color: white;
+    box-shadow: white;
+    display: flex;
+    align-items: center;
+}
+
+.box div{
+    padding: 0;
+    margin-left: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.sect{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.addbtn{
+    margin-bottom: 1rem;
+    background-color: #367BF5;
+    color: white;
+    border: #367BF5;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 5rem;
+    height: 1.5rem;
+}
+
+
+.mp{
+    border-radius: 10px;
+    background-color: #367BF5;
+    color: white;
+    border: #367BF5;
+}
+.hp{
+    border-radius: 10px;
+    background-color: #EA3D2F;
+    color: white;
+    border: #EA3D2F;
+}
+.lp{
+    border-radius: 10px;
+    background-color: #2FA84F;
+    color: white;
+    border: #2FA84F;
+    
+}
+
+.del{
+    margin-left: 20px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.pop-registration {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.714);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.user-registration {
+  width: 30%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.user-registration div {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+}
+
+.user-registration div > label {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.user-registration div > input {
+  padding: 0.5rem 1rem;
+  border:2px solid #367BF5; 
+  border-radius: 2rem;
+  background-color: #C481FF;
+}
+.user-registration div > input:focus {
+   border: 1px solid #C481FF; 
+
+}
+
+.user-registration .prio {
+  padding: 0.5rem 1rem;
+  border:2px solid #367BF5; 
+  border-radius: 2rem;
+  background-color: #C481FF;
+}
+
+.user-registration.btn{
+  margin:10px;
+  padding: 5px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+  background-color:#367BF5;
+  align-items: center;
+  border-radius: 2rem;
+  color: white;
+  border:none; 
+
+}
+.d-none {
+  display: none !important;
+}

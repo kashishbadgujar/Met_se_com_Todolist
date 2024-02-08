@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To do list</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/main1.css"/>
+    </head>
+    <body>
+        <section class="screen">
+            
+            <section class="box">
+                
+                <form action="">
+                    <section class="sect">
+                        <button type="button" class="addbtn" >Add todo</button>
+                        <h2 class="todo">TO DO</h2>
+                    </section>
+                    
+                    <div>
+                        <h4>Complete HTML Learning <button class="mp">!!</button></h4>
+                        <p>Learn all HTML semantic tags,learn new article tag <b class="del"><i class="fa fa-trash" aria-hidden="true"></i></b></p>
+                    </div>    
+                   
+                    <div>
+                        <h4>Learn map() method <button class="hp">!!!</button></h4>
+                        <p>Learn how to implement map method in javascript <b class="del"><i class="fa fa-trash" aria-hidden="true"></i></b></p>
+                    </div>
+                    
+                    <div>
+                        <h4>Take notes <button class="mp">!!</button></h4>
+                        <p>Take notes regarding css fundamentals <b class="del"><i class="fa fa-trash" aria-hidden="true"></i></b></p>
+                    </div>
+                    
+                    <div>
+                        <h4>Water plants <button class="lp">!</button></h4>
+                        <p>Water all plants in garden <b class="del"><i class="fa fa-trash" aria-hidden="true"></i></b></p>
+                    </div>
+                    
+                </form>
+            
+            </section>
+        </section>
+
+
+        <section class="pop-registration d-none">
+            <section class="user-registration">
+              <form action="#">
+                <div>
+                  <label for="">Todo Name</label>
+                  <input type="text" id="todo" value=""/>
+                </div>
+                
+                <div>
+                  <label for="">Description</label>
+                  <input type="" id="desc" value="" />
+                </div>
+
+                <div>
+                <label for="">Priority</label>
+                <select name="" id ="prio" value="">
+                    <option value="select">--select--</option>
+                    <option value="High" >High(!!!)</option>
+                    <option value="Medium">Medium(!!)</option>
+                    <option value="Low" >low(!)</option>
+                </select>
+              </div>
+
+                <div >
+                  <button type="button" id="save" class="btn ">Save</button>
+                </div>
+
+              </form>
+            </section>
+          </section>
+          <script src="js/main1.js"></script>
+    </body>
+</html>
